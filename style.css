@@ -21,6 +21,8 @@ body {
 
 }
 
+
+
 .nav-link,
 .navbar-toggler-icon,
 .dropdown-item {
@@ -32,17 +34,18 @@ body {
 }
 
 .togle-btn {
-    color: rgb(240, 235, 235) !important;
+    color:white !important;
     /* border: 3px solid gray; */
     z-index: 1000;
     opacity: 1;
+    width: 50px;
 
 }
 
 .signing {
     gap: 10px;
     list-style: none;
-
+   
 }
 
 .main-img {
@@ -652,6 +655,146 @@ body {
 
 
 
+
+
+
+.container1 {
+    margin-top: 10px;
+    width: 80%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.card1 {
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    box-shadow: 5px 5px 5px 5px rgb(163, 94, 94);
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5px;
+  
+    box-shadow: 5px 3px 5px 5px rgb(127, 112, 112);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card1 h1, .card1 h2, .card1 h3, .card1 h4, .card1 h5 {
+    margin: 0px;
+    padding: 0px 0px 15px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    color: #282828;
+}
+.card1 hr {
+    display: block;
+    border: none;
+    height: 3px;
+    /* background-color: salmon; */
+    margin: 0px;
+ 
+}
+.card1 p {
+    margin: 15px px px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    letter-spacing: -0.25px;
+    line-height: 1.25;
+    font-size: 16px;
+    word-break: break-all;
+    word-wrap: pre-wrap;
+    color: #282828;
+ 
+}
+.card1:hover {
+    transform: translateXY(-10px);
+    box-shadow: 10px 6px 10px 5px rgba(21, 20, 20, 0.8);
+}
+button {
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+/*   
+  button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  } */
+  
+  
+  
+  /* button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  } */
+  
+  /* button:hover:after {
+    opacity: 1;
+    right: 10px;
+  } */
+.card1 button {
+    border: none;
+    background-color: blue;
+    width: 70%;
+    font-size: 1rem;
+    height: 10%;
+    /* margin: 30px auto; */
+    /* padding: 10px 20px; */
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-transform: uppercase;
+    border-radius:50px;
+
+    cursor: pointer;
+    /* display: inline-block; */
+    position: relative;
+    transition: 0.5s;
+}
+.card1 button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -50px;
+    transition: 0.5s;
+  }
+.card1 button:hover{
+    padding-right: 20px;
+    padding-left:8px;
+    /* background-color: #66add4; */
+
+}
+.card1 button:hover:after{
+    opacity: 1;
+    right: 10px;
+}
 
 
 
