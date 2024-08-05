@@ -93,9 +93,21 @@ body {
 
 }
 
+.service-heading{
+     
+    color: blue;
+    
+   
+}
+.card1{
+
+    height: 500px !important;
+    border-radius: 1.5rem;
+}
 .card-web {
     flex: 1 1 250px;
     box-shadow: 5px 3px 5px 5px rgb(127, 112, 112);
+    
 }
 
 .card-design {
